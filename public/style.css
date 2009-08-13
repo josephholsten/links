@@ -1,0 +1,50 @@
+html {
+	background-color: black;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+h1 {
+	color: black;
+	background-color: lime;
+	text-align: center;
+	font-size: 2em;
+}
+
+h2 a, h1 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#links {
+	margin: 1em 3em;
+}
+
+#links > li {
+	margin-bottom: 1em;
+}
+
+h2 a {
+	font-size: 150%;
+	color: fuchsia;
+	text-decoration: none;
+}
+
+.entry-content {
+	color: lime;
+}
+
+.updated {
+	color: green;
+	float: left;
+}
+
+.entry-content, .tags, h2 {
+	margin-left: 8em;
+}
+
+.tags li {
+	display: inline;
+}
+
+.tags li a {
+	color: aqua;
+}
